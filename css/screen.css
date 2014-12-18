@@ -168,7 +168,7 @@ footer a:hover{
   float: left;
 }
 
-#status {  background-image:url(../photojournalism/daniela/status.jpg);
+#statues {  background-image:url(../photojournalism/daniela/statues.jpg);
   background-repeat:no-repeat;
   background-position:center;
   width: 522px;
@@ -178,7 +178,7 @@ footer a:hover{
   float: left;
 }
 
-#miami span, #littlehavana span, #moment span, #status span{
+#miami span, #littlehavana span, #moment span, #statues span{
   visibility: hidden;
   margin-top: 30%;
   display: block;
@@ -193,7 +193,7 @@ span {
   visibility: visible;
 }
 
-#miami:hover, #littlehavana:hover, #moment:hover, #status:hover{
+#miami:hover, #littlehavana:hover, #moment:hover, #statues:hover{
   opacity:0.5;
 }
 
@@ -212,8 +212,29 @@ span {
   margin:0 auto;
 }
 
-/*
-.container1 img{
-  width:522px;
-  float:left;
+.container1 section{
+  background-color:#ecebeb;
+  margin:0px auto;
 }
+
+.container1 h1, .container1 p{
+  color:#353535;
+}
+.container1 h1{
+  font-size:1.5em;
+  text-align:center;
+  padding:15px 10px;
+  margin:0px auto;
+  max-width:620px;
+}
+
+.container1 p{
+  padding:10px;
+  margin:0px;
+}
+/*above is photojournalism subpage*/
+
+/*infographic*/
+
+
+/*above is infographic*/
