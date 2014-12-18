@@ -180,7 +180,7 @@ footer a:hover{
 
 #miami span, #littlehavana span, #moment span, #statues span{
   visibility: hidden;
-  margin-top: 30%;
+  margin-top: 15%;
   display: block;
 }
 
@@ -238,3 +238,50 @@ span {
 
 
 /*above is infographic*/
+
+/*multimedia*/
+.container2{
+  max-width:1044px;
+  margin:0 auto;
+}
+
+.container2 section{
+  margin:0px auto;
+}
+
+.container2 h1, .container2 p{
+  color:#353535;
+}
+
+
+.container2 h1{
+  font-size:1.5em;
+  text-align:center;
+  padding:15px 10px;
+  margin:0px auto;
+  max-width:620px;
+}
+
+.container2 p{
+  padding:10px;
+  margin:0px;
+}
+
+.container2 img{
+  margin-left:25%;
+}
+
+.container2 audio{
+  margin-left:35%;
+}
+
+.container2 iframe{
+  text-align:center;
+  margin:5px 20px;
+}
+
+.container2 footer{
+  background-color:rgba(128,128,128,0.5);
+}
+
+/*above is multimedia*/

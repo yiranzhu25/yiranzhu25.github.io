@@ -1,39 +1,53 @@
 body{
-  font-family: "Gill Sans MT", sans-serif;
+  font-family: 'Istok Web', sans-serif;
   font-size:16px;
   color:rgb(0,0,0);
 }
 
-nav {
-  display:none;
-}
-h1,h2,h3,h4{
-  font-weight:normal;
+#cvnav ul {
+  max-width:1024px;
+  padding:10px;
+  margin:0px auto;
+  text-align:center;
+  background-color:rgba(128,128,128,0.5);
 }
 
+#cvnav li{
+  display:inline;
+  padding:10px;
+  margin:20px auto;
+}
+
+h1,h2,h3,h4{
+  font-weight:normal;
+  font-family: 'Roboto Condensed', sans-serif;
+}
 #container{
-  width:930px;
+  max-width:960px;
+  margin:0 auto;
 }
 
 header{
-  width:930px;
+  display:none;
+  max-width:960px;
+  background-color:rgba(116,169,217,0.5);
+  color:rgb(255,255,255);
   text-align:center;
-}
-
-header h1,h2{
-  margin:5px;
+  padding:5px;
+  border:0;
+  margin:0 auto;
 }
 
 
 .container1,.container2,.container3{
-  width:300px; /*don't know if should use max-width*/
+  width:310px; /*don't know if should use max-width*/
   border:0px solid rgb(0,0,0);
   margin-right:15px;
   float:left;
 }
 .container2 p{
   margin:5px 0;
-
+  color:rgb(88,89,91)
 }
 .container2 h3,h4,h4+p{
   margin:7px 0;
@@ -52,13 +66,16 @@ main div{
 }
 
 main h2{
-  border-bottom:4px solid rgb(0,0,0);
+  border-bottom:4px solid rgb(116,169,217);
   margin:10px 0;
 }
 
-
+h4{
+  color:rgb(116,169,217) ;
+}
 
 .container2 h4+p, .container3 h4+p {
+  color:rgb(169,171,174);
   font-size:0.8em;
 }
 
@@ -110,3 +127,16 @@ main h2{
 a{
   text-decoration:none;
   color:rgb(0,0,0);
+}
+a:hover{
+  color:rgb(152,203,203);
+}
+ a:visited{
+   color:rgb(0,99,176);
+   text-decoration: none;
+ }
+
+#cvnav a{
+   text-decoration:none;
+   color:white;
+ }
