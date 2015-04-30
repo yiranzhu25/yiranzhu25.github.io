@@ -82,6 +82,13 @@ li{
   font-size:16px;
 }
 
+#footnote p{
+  font-size:10px;
+  text-align:left;
+  padding-top:5px;
+  margin-bottom:0px;
+}
+
 .tabs-left {
   border-bottom: none;
   border-right: 1px solid rgb(221,221,221);
