@@ -48,15 +48,16 @@
 
   <!--intro-->
   <div>
-  <p>Southeast Florida is considered one of the most vulnerable areas to climate change and sea level rise. Since 1870, average global sea level has risen by about 8 inches, while the Southeast Florida has risen 12 inches.<sup>1</sup> In the City of Miami Beach, sea level rise has made prolonged flooding a frequent event after strong storms.</p>
-  <div  id="intrusionpart">
+  <p id="intro">Southeast Florida is considered one of the most vulnerable areas to climate change and sea level rise. Since 1870, average global sea level has risen by about 8 inches, while the Southeast Florida has risen 12 inches.<sup>1</sup> In the City of Miami Beach, sea level rise has made prolonged flooding a frequent event after strong storms.</p>
+  <div id="intrusionpart">
   <h4>Mean Sea Level Rise Trend in Miami Beach<sup>2</sup></h4>
   <p>In less than 100 years, it is possible that sea level rise exceeds a average human being's height.</p>
+  <p>All values are expressed in feet relative to local mean sea level (LMSL).</p>
 
     <img src="img/slrtrend.svg" class="graphicDesktop">
     <img src="img/slrtrendmobile.svg" class="graphicMobile">
     <div id="footnote">
-    <p>NOAA: National Oceanic and Atmospheric Administration. USACE: United States Army Corps of Engineers. NAVD88: North American Vertical Datum of 1988.It represents height of the primary tidal bench mark.</p>
+    <p>NOAA: National Oceanic and Atmospheric Administration. USACE: United States Army Corps of Engineers.</p>
   </div>
    </div>
   <!--end of intro-->
@@ -85,14 +86,18 @@
   <!--end of problem-->
 
   <!--solution-->
+  <div class="container">
   <h2 id="solution">A $550 Million Temporary Solution?</h2>
-  <p class="col-lg-8 col-md-8 col-sm-8">The City of Miami Beach is one of the communities in the Southeast Florida Regional Climate Change Compact that serves to assess the need of different areas and plan actions to combat climate change. The city is collaborating with other communities, Broward, Miami-Dade, Monroe and Palm Beach Counties to develop a series of adaptation plans to control the existing flooding situation, as well as to prevent future effects from climate change.</p>
-  <img class="col-lg-4 col-md-4 col-sm-4" id="map" src="img/florida.svg">
+  <img id="map" src="img/florida.svg">
+  <p>The City of Miami Beach is one of the communities in the Southeast Florida Regional Climate Change Compact that serves to assess the need of different areas and plan actions to combat climate change. The city is collaborating with other communities, Broward, Miami-Dade, Monroe and Palm Beach Counties to develop a series of adaptation plans to control the existing flooding situation, as well as to prevent future effects from climate change.</p>
+
 
   <p>Since the new mayor, commissioners and city engineer were elected a year and a half ago, the City of Miami Beach has  adopted a project focused on returning storm water to the ocean by installing a pump-based drainage system and Tideflex valves which prevent saltwater from entering the pipes. To make the most use of the existing infrastructure, the city also has been building pipes to connect existing isolated pumps. The city is also working on raising streets and sidewalks in low areas to higher elevations and resetting the building standards to accommodate rising ground water. While focusing on the implementing proven approaches, the City of Miami Beach prepares best for the potential future effects from sea level rise by raising existing sea walls and planting vegetation to build “living sea walls”.</p>
 
   <p>The City Engineer, Bruce Mowry says, “This year, we have $100 million budget for the project, and I plan to ask for another $150 million next year. It probably will cost $300 million more to complete the program.”</p>
+</div>
 
+<div class="container">
   <div id="solutiontab">
   <div class="col-lg-2 col-md-2">
     <ul class="nav nav-tabs tabs-left">
@@ -127,7 +132,7 @@
           <div class="tab-pane" id="road">
             <div class="col-lg-4 col-md-4">
                <p class="txt">The next step is to raise the streets <img class="icon" src="img/dot-road.svg">, and to change the building code to make sure that future properties will be built at a higher elevation to avoid flooding.</p>
-<!--                <button type="button" class="btn btn-md btn-danger"><a href="#detailroadwork">Road Work Details</a></button>-->
+
              </div>
              <img  class="col-lg-6 col-md-6" src="img/roadwork.svg">
           </div>
@@ -143,18 +148,12 @@
         </div>
     </div>
     </div>
-
+</div>
     <!--details-->
+    <div class="container">
     <div id="detail">
     <h4>How does the pump station works with pollution control</h4>
-<!--    <img class src="img/waterprocess.svg">-->
-    <!--    <img class="col-lg-2 col-md-2 col-sm-2" src="img/outfall.svg">-->
-<!--    <ul>
-      <li>Sea Wall</li>
-      <li>Pump Station</li>
-      <li>Pollution Control</li>
-      <li>Sewerage System</li>
-    </ul>-->
+<p>When it rains, the flood water on the road seeps through underground drainage system into the pollution control.Going through pollution control changes the sewer water to clean water. After the clean water flow through the pump station, it will be ready to be discharged back to the ocean over sea walls.</p>
     <img id="detailpump" class="gif" src="img/pump_1.gif">
 <!--    <img class="col-lg-2 col-md-2 col-sm-2" src="img/sewer.svg">-->
   </div>
@@ -162,7 +161,7 @@
     <h4>What a lifted road looks like</h4>
     <img id="detailroadwork" class="gif" src="img/liftingroad.gif">
   </div>-->
-
+</div>
   <!--end of solution-->
 </div>
 </div>
@@ -182,7 +181,7 @@
     </script>
 </body>
 
-<footer>
+<footer class="container">
   <!--sources-->
   <h3>SOURCES</h3>
   <p>1. <a href="http://tidesandcurrents.noaa.gov/sltrends/sltrends_station.shtml?stnid=8724580">NOAA Tides and Currents</a></p>

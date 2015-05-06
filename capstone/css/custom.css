@@ -2,7 +2,7 @@
 body{
   padding-top:50px;
   color:rgb(42, 42, 42);
-  text-align: justify;
+  text-align: left;
   font-family: 'Josefin Slab', serif;
 }
 
@@ -21,6 +21,16 @@ ul{
   margin:0 auto;
 }
 
+#cityuphigh{
+  font-size:4.5em;
+}
+
+#intro {
+  margin:30px auto;
+  font-size:1.6em;
+  text-align:center;
+}
+
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -37,11 +47,15 @@ ul{
 }
 
 p{
-  padding:10px 50px;
-  text-align:center;
+  padding:10px 7px;
+  text-align:left;
   font-size:20px;
 }
 
+#intrusionpart p, #detail p{
+  text-align:center;
+  font-size:16px;
+}
 
 .gif{
   max-width:95%;
@@ -50,7 +64,7 @@ p{
 
 #video{
   position:relative;
-  padding-bottom:56.25%;
+  padding-bottom:52.25%;
   padding-top:30px;
   height:0;
   overflow:hidden;
@@ -78,9 +92,6 @@ li{
   display:none;
 }
 
-#intrusionpart p{
-  font-size:16px;
-}
 
 #footnote p{
   font-size:10px;
@@ -98,9 +109,9 @@ li{
 
 .tabs-left>li {
   float: none;
-  margin-bottom: 2px;
+  margin-bottom: 8px;
   margin-right: -1px;
-  padding:5px 10px;
+  padding:5px 0px  5px 10px;
 
 }
 
@@ -145,6 +156,8 @@ li{
 #map{
   margin-top:30px;
   margin-bottom:30px;
+  max-width:38%;
+  float:right;
 }
 
 .icon{
@@ -153,13 +166,17 @@ li{
 }
 
 footer{
-  margin-top:10px;
+  margin-top:10px auto;
   border-top:1px solid rgb(221,221,221);
+
+
 }
 
 footer h3{
   font-size:20px;
   margin-top:10px;
+  margin-bottom:0px;
+  padding:3px;
 }
 
 footer h4{
@@ -170,10 +187,9 @@ footer h4{
 footer p{
   font-size:15px;
   padding:5px;
+  text-align:center;
+  margin-bottom:0px;
 }
-/*#detail h4:first-child{
-  margin-top:400px;
-}*/
 
 
 
